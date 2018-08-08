@@ -1,0 +1,26 @@
+Service Virtualization Plugin
+Copyright 2018 Optum
+
+
+Project Description:
+====================
+
+The Kong Service Virtualization Plugin is a small, lua-based, OpenResty Nginx module which enables virtual mocking the ability to create API request response pair matches, which come in handy prior to real API functionality and error cases to be fully developed. The purpose of this Service Virtualization plugin is to enable teams to expose their proxies before their service is truly ready through the Kong Gateway.
+
+
+
+Authors:
+Jeremy Justus, Ross Sbriscia © Optum 2018
+
+
+Added Files:
+============
+
+
+
+
+
+
+
+Modified Files:
+===============

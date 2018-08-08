@@ -86,4 +86,8 @@ $ cd /path/to/kong/plugins/kong-service-virtualization
 $ luarocks make *.rockspec
 ```
 
+## Maintainers
+[jeremyjpj0916](https://github.com/jeremyjpj0916)  
+[rsbrisci](https://github.com/rsbrisci)  
+
 Feel free to open issues, or refer to our Contribution Guidelines if you have any questions.

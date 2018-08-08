@@ -2,7 +2,7 @@
 ## Overview
 This plugin will enable mocking virtual API request and response pairs through Kong Gateway.
 
-##Explanation:
+## Explanation:
 
 kong-service-virtualization schema 'virtual_tests' args: 
 ```

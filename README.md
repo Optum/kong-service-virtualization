@@ -27,8 +27,11 @@ kong-service-virtualization schema 'virtual_tests' args:
 ```
 
 Where TestCase1 and TestCase2 are the names of the virtual test cases and must be passed in as a header value:
+
 X-VirtualRequest: TestCase1
+
 or
+
 X-VirtualRequest: TestCase2
 
 The 'requestHash' arg is a Sha256(HTTP Request as query parameters or HTTP Body)

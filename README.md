@@ -63,7 +63,7 @@ Content-Type: application/json; charset=utf-8
 {"message":"No virtual request match found, your request yeilded: 46c4b4caf0cc3a5a589cbc4e0f3cd0492985d5b889f19ebc11e5a5bd6454d20f expected 0296217561490155228da9c17fc555cf9db82d159732f3206638c25f04a285c4"}
 ```
 
-If the test case specificed in the header does not match anything found stored within the plugin your error would like like so:
+If the test case specificed in the header does not match anything found stored within the plugin your error would be like so:
 Passing X-VirtualRequest: TestCase3 in header yeilds
 ```
 Status Code: 404 Not Found

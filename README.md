@@ -74,7 +74,7 @@ Content-Type: application/json; charset=utf-8
 ```
 
 ## Supported Kong Releases
-Kong >= 0.13.x 
+Kong >= 1.x
 
 ## Installation
 Recommended:

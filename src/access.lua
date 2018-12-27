@@ -1,5 +1,4 @@
 local _M = {}
-local responses = require "kong.tools.responses"
 local resty_sha256 = require "resty.sha256"
 local str = require "resty.string"
 local json = require('cjson')
@@ -26,9 +25,9 @@ end
 
 local function virtualNoMatch(expectedSha256, foundSha256)
   if expectedSha256 and foundSha256 then
-    return responses.send(ngx.HTTP_NOT_FOUND, "No virtual request match found, your request yeilded: " .. foundSha256 .. " expected " .. expectedSha256)
+    return kong.response.exit(404, { message = "No virtual request match found, your request yeilded: " .. foundSha256 .. " expected " .. expectedSha256 })
   else
-    return responses.send(ngx.HTTP_NOT_FOUND, "No matching virtual request found!")
+    return kong.response.exit(404, { message = "No matching virtual request found!" })
   end
 end
 

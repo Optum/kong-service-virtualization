@@ -1,5 +1,5 @@
 package = "kong-service-virtualization"
-version = "0.1-0"
+version = "0.1-1"
 source = {
    url = "git+https://github.com/Optum/kong-service-virtualization.git"
 }

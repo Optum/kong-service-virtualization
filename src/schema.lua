@@ -1,6 +1,13 @@
+local typedefs = require "kong.db.schema.typedefs"
+
 return {
-  no_consumer = true,
+  name ="kong-service-virtualization"
   fields = {
-    virtual_tests = { type = "string", required = true}
-  }
+    { protocols = typedefs.protocols_http },
+    { config = {
+        type = "record",
+        fields = {
+          { virtual_tests = { type = "string", required = true }, },
+    }, }, },
+  },
 }

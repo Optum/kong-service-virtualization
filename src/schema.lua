@@ -1,7 +1,7 @@
 local typedefs = require "kong.db.schema.typedefs"
 
 return {
-  name ="kong-service-virtualization"
+  name = "kong-service-virtualization",
   fields = {
     { protocols = typedefs.protocols_http },
     { config = {
